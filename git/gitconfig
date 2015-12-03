@@ -125,3 +125,8 @@
   enabled = true
 [include]
   path = .gitconfig.user
+[user ""]
+	name = Michael Johann
+[user]
+	email = mjohann@rails-experts.com
+	name = Michael Johann

@@ -207,4 +207,10 @@ alias dbmd='spring rake db:migrate:down'
 alias dbmu='spring rake db:migrate:up'
 
 # Homebrew
-alias brewu='brew update  && brew upgrade --all && brew cleanup && brew prune && brew doctor'
+# alias brewu='brew update  && brew upgrade --all && brew cleanup && brew prune && brew doctor'
+
+# Development
+#
+alias emo='export MONGO_URL=mongodb://127.0.0.1:27017/sociafy'
+alias dsp='cd ~/projects/sociafy/provisioning && ansible-playbook -i production site.yml --tags="deploy"'
+alias dss='cd ~/projects/sociafy/provisioning && ansible-playbook -i staging site.yml --tags="deploy"'

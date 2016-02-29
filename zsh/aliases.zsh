@@ -172,6 +172,9 @@ alias rdmr='rake db:migrate:redo'
 alias beg='bundle exec guard'
 alias bers='bundle exec rails server'
 alias berc='bundle exec rails console'
+# RuboCop
+
+alias beac='bundle exec rake rubocop:auto_correct'
 
 # Zeus
 alias zs='zeus server'

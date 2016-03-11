@@ -172,6 +172,12 @@ alias rdmr='rake db:migrate:redo'
 alias beg='bundle exec guard'
 alias bers='bundle exec rails server'
 alias berc='bundle exec rails console'
+alias bergm='bundle exec rails g model'
+
+# Docker
+alias dm='docker-machine'
+alias dmls='docker-machine ls'
+alias edme='eval $(docker-machine env $@)'
 
 # Zeus
 alias zs='zeus server'

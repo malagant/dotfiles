@@ -178,6 +178,9 @@ alias bergm='bundle exec rails g model'
 alias dm='docker-machine'
 alias dmls='docker-machine ls'
 alias edme='eval $(docker-machine env $@)'
+# RuboCop
+
+alias beac='bundle exec rake rubocop:auto_correct'
 
 # Zeus
 alias zs='zeus server'
